@@ -33,4 +33,4 @@ pip install -r requirements.txt
 ```bash
 py FlaskRESTful.py
 ```
-This will start the Flask app on the default host and port (http://127.0.0.1:5000/todos).
+This will start the Flask app on the default host and port (http://127.0.0.1:5000).
