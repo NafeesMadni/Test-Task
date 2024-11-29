@@ -95,6 +95,7 @@ class TodoListView(Resource):
 class TodoDetailView(Resource):
    def get(self, id):
       todo = Todo.query.get_or_404(id)
+      # todo = db.session.get(Todo, id) # Query.get() method replaced with Session.get(). this will remove the warning that occurs during testing
       return todo_schema.jsonify(todo)
       
    def put(self, id):
