@@ -1,39 +1,33 @@
-# Byte-compiled / optimized / compiled Python files
+# Compiled Python files
+*.pyc
 __pycache__/
-*.py[cod]
-*.pyo
 
-# Virtual environment directory
+# Virtual environment
 venv/
-.venv/
+env/
 
-# Flask environment files
-*.env
-*.flaskenv
+# IDE files
+.idea/
+.vscode/
 
-# Log files
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
 
-# Instance folder (contains settings and files specific to an instance)
-instance/
+# Database files
+*.sqlite
+*.db
 
-# SQLite database files
-*.sqlite3
+# Compiled output
+dist/
+tmp/
+out-tsc/
+bazel-out/
 
-# Pytest and coverage
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# IDEs and editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Docker
-docker-compose.override.yml
-.env.docker
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
