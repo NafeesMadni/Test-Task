@@ -28,7 +28,7 @@ cd Test-Task
 pip install -r requirements.txt
 ```
 ---
-4. Run the App
+### **4. Run the App**
 
 ```bash
 py FlaskRESTful.py
