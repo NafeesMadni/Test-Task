@@ -1,12 +1,9 @@
 ### **1. Clone the Repository**
 
 ```bash
-git clone [<repository_url>](https://github.com/NafeesMadni/Test-Task/)
-cd <repository_directory>
+git clone https://github.com/NafeesMadni/Test-Task/
+cd Test-Task
 ```
-
-Replace `<repository_url>` with the actual URL of the repository and `<repository_directory>` with the name of the cloned folder.
-
 ---
 
 ### **2. Set Up a Virtual Environment (Recommended)**
