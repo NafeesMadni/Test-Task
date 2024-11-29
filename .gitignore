@@ -1,10 +1,11 @@
-# Compiled Python files
-*.pyc
-__pycache__/
-
-# Virtual environment
+# Python virtual environment
+venv/
 .venv/
-env/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
 
 # IDE files
 .idea/
@@ -13,9 +14,6 @@ env/
 # OS-specific files
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
 
 # Database files
 *.sqlite
