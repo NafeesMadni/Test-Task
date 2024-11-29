@@ -105,6 +105,3 @@ def test_delete_todo(client):
    data = response.get_json()
    assert data['Message'] == 'Successfully Deleted'
 
-   # # Verify deletion
-   # with app.app_context():
-   #    assert Todo.query.get(todo_id) is None
